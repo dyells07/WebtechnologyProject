@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Soch  College Of IT</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College">
+ <meta name="author" content="Soch College of IT 1-11">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="/for CSS/style.css">
+<script src="../for JS/javascript.js"></script>
+<script src="../for JS/imageslider.js"></script>
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="/for IMAGE/sochlogo.png">
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="course.html">Course</a></li>
+			<li><a href="download.html">Download</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="register.html">Login</a></li>
+			
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="imageslider fade">
+  <div class="numbertext">01 / 06</div>
+  <img src="../for IMAGE/add.jpg">
+ </div>
+
+<div class="imageslider fade">
+  <div class="numbertext">02 / 06</div>
+  <img src="../for IMAGE/add3.jpg">
+  </div>
+
+<div class="imageslider fade">
+  <div class="numbertext">03 / 06</div>
+  <img src="../for IMAGE/orientation.jpg">
+</div>
+
+<div class="imageslider fade">
+    <div class="numbertext">04 / 06</div>
+    <img src="../for IMAGE/image.webp">
+   </div>
+
+   <div class="imageslider fade">
+    <div class="numbertext">05 / 06</div>
+    <img src="../for IMAGE/front.jpg">
+   </div>
+
+   <div class="imageslider fade">
+    <div class="numbertext">06 / 06</div>
+    <img src="../for IMAGE/abc.png">
+   </div>
+
+</div>
+<script>
+    var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("imageslider");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="Mr. Sushil Adhikari">Principle Message </a>	</h3>  
+			</header>
+			<footer>
+                <h4 class="post-info" >Sushil Adhikari</h4>
+				<p class="post-info">M.Sc.Computer Science <br>
+                    (Technical University - Berlin, Germany)</p>
+			</footer>
+			<content>
+<p>As principal of this college, I am pleased to welcome students, lecturers, visitors, staff and parents. I encourage you to explore this website to learn more about this college. <br><br>
+
+    We deliver courses that ensure that our students are getting the 21st century education they need. Active participation in an education that challenges critical thinking, provides career preparation, instills values, and inspires lifelong learning is encouraged in our college. <br><br>
+    
+    The dedicated lecturer and staff in our college are supportive because they see students as an investment in the future. <br> <br>
+    
+    College is about so much more than academic success and at SOCH you will find much more. You will make friends for a lifetime, establish networks that will ease your transition into your working life and come to think of college as your home at SOCH. <br><br>
+    
+    The future of this college is very bright, and I am honored to be part of this institution.
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="https://www.ankitpangeni.com.np/" title="TU IOSt">B.SC. CSIT</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">Affiliated to Tribhuvan University</p>
+			</footer>
+			<content>
+<p>B.Sc.CSIT offered by Institute of Science and Technology, Tribhuvan University, Nepal is a four years – 8 semesters – academic program. <br><br>
+
+    This program ensures that graduates have a broad basic knowledge and creative skills to conceive, design, build and exploit Information Processing Systems. In addition to this, the program also stimulates development of soft skills such as team work, effective communication, technology management etc. These skills are acquired through the execution of various projects, lab works, presentations, case studies and seminars throughout the entire program. <br><br>
+    
+    It is a challenging and demanding program. Nevertheless it is also rewarding and fun. Thus it is the right program for students who are passionate about Technology and Communication.
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+<aside class="top-sidebar">
+	<article>
+		<h3>Our Mission</h3>
+		<p>Provide easy access to qualitative and affordable education to produce skillful human resources.</p>
+	</article>
+</aside>
+
+<aside class="middle-sidebar">
+	<article>
+		<h3>Our Vision</h3>
+		<p>Advance technical education through scholarship, leadership and practical exposure.</p>
+	</article>
+</aside>
+
+<aside class="buttom-sidebar">
+	<article>
+		<h3>Our Objectives</h3>
+		<p>Treat each other with dignity and respect. Ensure students can achieve their full potential.</p>
+	</article>
+</aside>
+<footer class="mainFooter">
+	<p>Copyright &copy <a href="https://github.com/dyells07">2023</a>  ALL RIGHTS RESERVED.</p>
+	<center>
+           <h5>Soch College of IT</h5>
+	</center>
+</footer>
+
+</body>
+</html>
